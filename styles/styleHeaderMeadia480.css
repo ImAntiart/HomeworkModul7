@@ -1,0 +1,177 @@
+@media (max-width: 480px) {
+    .headerMiddle {
+        display: none;
+    }
+
+    .dropMenu {
+        left: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .first-img,
+    .second-img {
+        display: none;
+    }
+
+    .first-img480px,
+    .second-img480px {
+        display: block;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        color: #151618;
+        padding: 0;
+        margin: 0;
+        gap: 0px;
+        width: 480px;
+        height: 5562px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 480px;
+        height: 76px;
+        gap: 0px;
+    }
+
+    .headerTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 460px;
+        height: 56px;
+        gap: 0px;
+    }
+
+    .custom-button {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 40px;
+        height: auto;
+        appearance: none;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        font: inherit;
+        overflow: hidden;
+
+    }
+
+    .custom-button:focus {
+        outline: none;
+    }
+
+    .custom-button img {
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 40px;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+
+    .headerLeft {
+        display: flex;
+        flex-direction: column;
+        width: 39px;
+        height: 56px;
+        font-family: "IMFellGreatPrimerSC", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12.23px;
+        text-align: left;
+        color: #151618;
+        margin: 0px;
+    }
+
+    .headerLeft img {
+        width: 36.44px;
+        height: 45.35px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .headerRight {
+        display: flex;
+        justify-content: space-between;
+        width: 130px;
+        height: 29px;
+    }
+
+    .headerSumkaProfile {
+        display: flex;
+        justify-content: space-between;
+        width: 58px;
+        height: 29px;
+    }
+
+    /* --------------------------------------------------------Следующий контейнгер -----------------------------------------------------------*/
+
+    .headerImg {
+        display: flex;
+        position: relative;
+        width: 480px;
+        height: 500px;
+    }
+
+    .first-img,
+    .second-img {
+        width: 480px;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .second-img {
+        z-index: 10;
+    }
+
+    .overlayTextFirst {
+        width: 450px;
+        height: 96px;
+        margin-top: 276px;
+        margin-left: 9px;
+        gap: 0px;
+        position: absolute;
+        font-family: "Cormorant", sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48.44px;
+        text-align: left;
+        color: #FFFFFF;
+        z-index: 20;
+    }
+
+    .overlayTextSecond {
+        width: 450px;
+        height: 58px;
+        gap: 0px;
+        margin-top: 392px;
+        margin-left: 9px;
+        position: absolute;
+        font-family: "Cormorant", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.06px;
+        text-align: left;
+        color: #FFFFFF;
+        z-index: 20;
+    }
+}

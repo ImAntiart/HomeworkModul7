@@ -1,0 +1,336 @@
+@media (max-width: 768px) {
+    .footerPrioritise {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 638px;
+        height: 480px;
+        margin-top: 120px;
+        margin-left: 65px;
+        gap: 0px;
+    }
+
+    .footerPrioritiseHeading {
+        display: flex;
+        align-items: center;
+        width: 207px;
+        height: 47.96px;
+        gap: 0px;
+        font-family: "Cormorant";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48.44px;
+        text-align: left;
+    }
+
+    .footerPrioritiseParent {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 640px;
+        height: 384px;
+        text-align: center;
+
+    }
+
+    .footerPrioritiseChilds {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .footerPrioritiseChilds img {
+        padding-top: 40px;
+        align-self: center;
+        margin-top: auto;
+        width: 60px;
+        height: 60px;
+        gap: 0px;
+    }
+
+    .footerPrioritiseChildsTop {
+        gap: 0px;
+        font-family: "OpenSansLight";
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 40.85px;
+        text-align: left;
+        margin-bottom: 10.3px;
+
+    }
+
+    .footerPrioritiseChildsBot {
+
+        font-family: "OpenSansSemiBold";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27.24px;
+        text-align: center;
+    }
+
+
+    /*    --------------------------- Другой контейнер--------------------------------------------------- */
+
+    .footerEnd {
+        display: flex;
+        flex-direction: row;
+        width: 768px;
+        height: 591px;
+        gap: 0px;
+        margin-top: 120px;
+        background-color: #F7F2EA;
+    }
+
+    .footerEndProducts {
+        margin-top: 50px;
+        margin-left: 64px;
+        display: flex;
+        flex-direction: column;
+        width: 97px;
+        height: 269px;
+    }
+
+    .footerEndProductsHeading {
+        font-family: "Cormorant";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.06px;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .footerEndProductsParent {
+        display: flex;
+        flex-direction: column;
+        width: 97px;
+        height: 190px;
+        gap: 20px;
+
+    }
+
+    .footerEndProductsChilds {
+        font-family: "OpenSansLight";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21.79px;
+        text-align: left;
+    }
+
+    /*    --------------------------- Другой контейнер--------------------------------------------------- */
+
+    .footerEndCompany {
+        margin-top: 50px;
+        margin-left: 52px;
+        display: flex;
+        flex-direction: column;
+        width: 155px;
+        height: 353px;
+    }
+
+    .footerEndCompanyHeading {
+        font-family: "Cormorant";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.06px;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .footerEndCompanyParent {
+        display: flex;
+        flex-direction: column;
+        width: 155px;
+        height: 274px;
+        gap: 20px;
+
+    }
+
+    .footerEndCompanyChilds {
+        font-family: "OpenSansLight";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21.79px;
+        text-align: left;
+    }
+
+    /*    --------------------------- Папа Другой контейнер--------------------------------------------------- */
+    .footerAlexeyIsTiredOfFlex {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 270px;
+        height: 480px;
+        margin-top: 50px;
+        margin-left: 67px;
+    }
+
+    /*    --------------------------- Другой контейнер--------------------------------------------------- */
+
+    .footerEndQuote {
+        display: flex;
+        flex-direction: column;
+        width: 269px;
+        height: 162px;
+        margin-top: 0px;
+        margin-left: 0px;
+        gap: 20px;
+    }
+
+    .footerEndQuoteText {
+        font-family: "OpenSansItalic";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21.79px;
+        text-align: left;
+    }
+
+    .footerEndQuoteAuthor {
+        width: 129px;
+        height: 32px;
+        gap: 0px;
+        font-family: "OpenSansLight";
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 16.34px;
+        text-align: left;
+    }
+
+    /*    --------------------------- Другой контейнер--------------------------------------------------- */
+
+    .footerEndContact {
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        height: 287px;
+        gap: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .footerEndContactHeading {
+        font-family: "Cormorant";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.06px;
+        text-align: left;
+    }
+
+    .footerEndContactText {
+        margin-top: 50px;
+        font-family: "OpenSans";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17.7px;
+        text-align: left;
+
+    }
+
+    .footerEndContactRow {
+        width: 270px;
+        height: 91px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        font-family: "OpenSans";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17.7px;
+        text-align: left;
+        gap: 0px;
+    }
+
+    .footerEndContactRowParent {
+        margin-top: 20px;
+        margin-left: 40.1px;
+        display: flex;
+        flex-direction: column;
+        width: 136px;
+        height: 60px;
+        gap: 20px;
+
+    }
+
+    .footerEndContactRowChilds {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .footerEndContactIcons {
+        display: flex;
+        margin-top: 30px;
+
+        width: 150px;
+        height: 22px;
+        gap: 20px;
+    }
+
+    /*    --------------------------- Другой контейнер--------------------------------------------------- */
+
+    .footerEndBottom {
+        display: flex;
+        flex-direction: row;
+
+        width: 768px;
+        background-color: #F7F2EA;
+        height: 40px;
+    }
+
+    .footerEndBottomBot {
+        margin-left: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 466px;
+        height: 22px;
+        gap: 0px;
+    }
+
+    .footerEndCopy {
+        font-family: "OpenSans";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21.79px;
+        text-align: left;
+        gap: 0px;
+    }
+
+    .footerEndLogo {
+        display: flex;
+        width: 156px;
+        height: 20px;
+        gap: 20px;
+    }
+
+    .footerEndLogo1 {
+        width: 26px;
+        height: 20px;
+        gap: 0px;
+    }
+
+    .footerEndLogo2 {
+        width: 31px;
+        height: 10px;
+        gap: 0px;
+    }
+
+    .footerEndLogo3 {
+        width: 29px;
+        height: 12px;
+        gap: 0px;
+    }
+
+    .footerEndLogo4 {
+        width: 10px;
+        height: 12px;
+        gap: 0px;
+    }
+
+
+}

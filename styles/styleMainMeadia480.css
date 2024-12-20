@@ -1,0 +1,374 @@
+@media (max-width: 480px) {
+    .mainTopQuote {
+        width: 376px;
+        height: 44px;
+        margin-top: 60px;
+        margin-left: 50px;
+        gap: 0px;
+        font-family: "OpenSansItalic";
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 48.44px;
+        text-align: center;
+
+    }
+
+    .mainTopCollectionsHeading {
+        width: 369px;
+        height: 48px;
+        margin-top: 60px;
+        margin-left: 56px;
+        margin-bottom: 30px;
+        gap: 0px;
+        font-family: "Cormorant";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48.44px;
+        text-align: center;
+    }
+
+
+    .mainTopImgTeaCollections {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-family: "Cormorant";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.06px;
+        text-align: center;
+        width: 416px;
+        height: 741px;
+        margin-left: 32px;
+        gap: 0px;
+    }
+
+    .mainTopImgCollectionsPart {
+        width: 208px;
+        height: 247px;
+        gap: 10px;
+    }
+
+
+
+    /* ------------------------------------------------- Другой участок ======================================================== */
+
+    .mainCustomerOpinion {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 480px;
+        height: 588px;
+        margin-top: 60px;
+        gap: 0px;
+        background-color: #F7F2EA;
+    }
+
+    .mainCustomerOpinionHeading {
+        margin-top: 50px;
+        text-align: center;
+        width: 329px;
+        height: 48px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Cormorant";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48.44px;
+    }
+
+    .mainCustomerOpinionParent {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 460px;
+        height: 500px;
+        gap: 0px;
+    }
+
+    .mainCustomerOpinionChilds {
+        width: 220px;
+        height: auto;
+        gap: 10px;
+        font-family: "OpenSansItalic";
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 21.79px;
+        text-align: left;
+    }
+
+    .mainCustomerOpinionChildsQuote {
+        width: 220px;
+        height: 27px;
+        font-family: "OpenSansSemiBold";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27.24px;
+        text-align: left;
+        gap: 0px;
+    }
+
+    /* ------------------------------------------------- Другой участок ======================================================== */
+
+    .mainTeaBlog {
+        display: flex;
+        flex-direction: column;
+        margin-left: 136px;
+        margin-top: 60px;
+        width: 208px;
+        height: 48ox;
+        gap: 0px;
+        font-family: "Cormorant";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48.44px;
+        text-align: center;
+    }
+
+
+    .mainTeaBlogContentParent {
+        margin-top: 60px;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        width: 460px;
+        height: 702px;
+        gap: 30px;
+    }
+
+    .mainTeaBlogChilds {
+        display: flex;
+        width: 460px;
+        height: 153px;
+    }
+
+    .mainTeaBlogChilds img {
+        display: flex;
+        width: 230px;
+        height: 153px;
+    }
+
+    .mainTeaBlogChilds:nth-child(1) {
+        align-self: flex-start;
+    }
+
+    .mainTeaBlogChilds:nth-child(2) {
+        align-self: flex-start;
+    }
+
+    .mainTeaBlogChilds:nth-child(3) {
+        align-self: flex-start;
+    }
+
+    .mainTeaBlogChilds:nth-child(4) {
+        align-self: flex-start;
+    }
+
+    .mainTeaBlogChilds img:first-child {
+        margin-right: 20px;
+    }
+
+    .mainTeaBlogChildsText {
+        margin: 0;
+        width: 210px;
+        height: 86px;
+        gap: 0px;
+        font-family: "Cormorant";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.06px;
+        text-align: left;
+    }
+
+    .mainTeaBlogChildsTextAuthor {
+        width: 210px;
+        height: 18px;
+        gap: 0px;
+        font-family: "OpenSansLight";
+        color: #151618;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17.7px;
+        text-align: left;
+
+    }
+
+    .mainTeaBlogChildsButtonRead {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 43px;
+        height: 18px;
+        gap: 0px;
+        font-family: "OpenSansLight";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17.7px;
+        text-align: left;
+        margin-top: 21px;
+
+    }
+
+
+    .mainTeaBlogChildsButtonRead img {
+        margin-left: 8px;
+        width: 5px;
+        height: 10px;
+        gap: 0px;
+
+
+    }
+
+
+    .mainTeaBlogViewAllButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "OpenSansLight";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 27.24px;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 165px;
+        width: 149px;
+        height: 51px;
+        border: 1px solid #151618;
+    }
+
+    /* ------------------------------------------------- Другой участок ======================================================== */
+
+    .mainMailing {
+        display: flex;
+        flex-direction: column;
+        background-color: #F7F2EA;
+        width: 480px;
+        height: 415px;
+        margin-top: 60px;
+        gap: 0px;
+        position: relative;
+        z-index: 1;
+    }
+
+
+    .mainMailing img {
+        position: absolute;
+        top: 106px;
+        bottom: 0;
+        right: 0;
+        width: 673.72px;
+        height: 418px;
+        gap: 0px;
+        object-fit: cover;
+        display: none;
+    }
+
+    .mainMailingHeading {
+        width: 326px;
+        height: 48px;
+        margin-top: 50px;
+        margin-left: 76px;
+        gap: 0px;
+        font-family: "Cormorant";
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48.44px;
+        text-align: left;
+    }
+
+    .mainMailingRow {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 460px;
+        height: 418px;
+        gap: 30px;
+    }
+
+    .mainMailingText {
+        width: 460px;
+        height: 72px;
+        gap: 0px;
+        font-family: "OpenSansLight";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17.7px;
+        text-align: center;
+    }
+
+    .mainMailingSubscribe {
+        display: flex;
+        flex-direction: column;
+        width: 460px;
+        height: 135px;
+
+    }
+
+    .top-row,
+    .bottom-row {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 10px;
+    }
+
+    .email-input {
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-bottom: 1px solid #B8B58B;
+        background-color: #F7F2EA;
+        width: 439px;
+        height: 30px;
+        font-size: 16px;
+        padding: 9px 10px 0;
+        outline: none;
+        margin-right: 20px;
+    }
+
+    ::placeholder {
+        color: #B8B58B;
+    }
+
+    .join-button {
+        width: 116px;
+        height: 51px;
+        background-color: #FFFFFF;
+        border: 1px solid #151618;
+        color: #151618;
+        font-family: "OpenSansLight";
+        font-size: 20px;
+        text-align: center;
+        line-height: 51px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .privacy-text {
+        width: 439px;
+        height: 72px;
+        gap: 0px;
+        font-family: "OpenSansLight";
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17.7px;
+        text-align: left;
+    }
+
+    .checkbox {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #111;
+    }
+}

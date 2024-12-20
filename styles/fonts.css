@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "IMFellGreatPrimerSC";
+    src: url("/fonts/IMFellGreatPrimerSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("/fonts/OpenSans-Light.ttf");
+}
+
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansItalic";
+    src: url("/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansSemiBold";
+    src: url("/fonts/OpenSans-SemiBold.ttf");
+}
+
+
+
+@font-face {
+    font-family: "Cormorant";
+    src: url("/fonts/Cormorant-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "CormorantItalic";
+    src: url("/fonts/Cormorant-Italic-VariableFont_wght.ttf");
+}

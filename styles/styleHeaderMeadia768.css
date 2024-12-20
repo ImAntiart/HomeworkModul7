@@ -1,0 +1,167 @@
+@media (min-width: 769px) {
+    .custom-button {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerMiddle {
+        display: none;
+        margin: 0;
+    }
+}
+
+/* -------------------------styleHeader------------------------------------------------ */
+@media (max-width: 768px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        color: #151618;
+        padding: 0;
+        margin: 0;
+        gap: 0px;
+        width: 768px;
+        height: 5468px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 768px;
+        height: 165px;
+        gap: 0px;
+    }
+
+    .headerTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 640px;
+        height: 104px;
+        gap: 0px;
+    }
+
+    .custom-button {
+        appearance: none;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        font: inherit;
+        overflow: hidden;
+
+    }
+
+    .custom-button:focus {
+        outline: none;
+    }
+
+    .custom-button img {
+        margin-left: 0px;
+        margin-top: 43px;
+        margin-bottom: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 40px;
+        opacity: 0px;
+        object-fit: cover;
+    }
+
+
+
+    .headerLeft {
+        display: flex;
+        flex-direction: column;
+        width: 73.2px;
+        height: 105px;
+        font-family: "IMFellGreatPrimerSC", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22.01px;
+        text-align: left;
+        color: #151618;
+    }
+
+    .headerLeft img {
+        width: 68.41px;
+        height: 85.04px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .headerRight {
+        display: flex;
+        justify-content: space-between;
+        width: 130px;
+        height: 29px;
+    }
+
+    .headerSumkaProfile {
+        display: flex;
+        justify-content: space-between;
+        width: 58px;
+        height: 29px;
+    }
+
+    /* --------------------------------------------------------Следующий контейнгер -----------------------------------------------------------*/
+
+    .headerImg {
+        display: flex;
+        position: relative;
+        width: 768px;
+        height: 500px;
+    }
+
+    .first-img,
+    .second-img {
+        width: 768px;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .second-img {
+        z-index: 10;
+    }
+
+    .overlayTextFirst {
+        width: 684px;
+        height: 120px;
+        margin-top: 254px;
+        margin-left: 19px;
+        gap: 0px;
+        position: absolute;
+        font-family: "Cormorant", sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: left;
+        color: #FFFFFF;
+        z-index: 20;
+    }
+
+    .overlayTextSecond {
+        width: 557.65px;
+        height: 58px;
+        gap: 0px;
+        margin-top: 394px;
+        margin-left: 19px;
+        position: absolute;
+        font-family: "Cormorant", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.06px;
+        text-align: left;
+        color: #FFFFFF;
+        z-index: 20;
+    }
+}
+
+/* -------------------------end of styleHeader------------------------------------------------ */

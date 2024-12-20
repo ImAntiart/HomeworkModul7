@@ -1,0 +1,334 @@
+.mainTopQuote {
+    width: 704px;
+    height: 96px;
+    margin-top: 150px;
+    margin-left: 448px;
+    gap: 0px;
+    font-family: "CormorantItalic";
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 48.44px;
+    text-align: center;
+}
+
+.mainTopCollectionsHeading {
+    width: 704px;
+    height: 96px;
+    margin-top: 150px;
+    margin-left: 448px;
+    margin-bottom: 15px;
+    gap: 0px;
+    font-family: "Cormorant";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.44px;
+    text-align: center;
+}
+
+.mainTopImgTeaCollections {
+    display: flex;
+    font-family: "Cormorant";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.06px;
+    text-align: center;
+    width: 1200px;
+    height: 247px;
+    margin-left: 200px;
+    gap: 40px;
+}
+
+.mainTopImgCollectionsPart {
+    width: 208px;
+    height: 247px;
+    gap: 10px;
+}
+
+/* ------------------------------------------------- Другой участок ======================================================== */
+
+.mainCustomerOpinion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1600px;
+    height: 397px;
+    margin-top: 150px;
+    gap: 0px;
+    background-color: #F7F2EA;
+}
+
+.mainCustomerOpinionHeading {
+    text-align: center;
+    width: 329px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Cormorant";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.44px;
+}
+
+.mainCustomerOpinionParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 169px;
+    gap: 26px;
+
+}
+
+.mainCustomerOpinionChilds {
+    width: 280px;
+    height: 132px;
+    gap: 0px;
+    font-family: "OpenSansItalic";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 21.79px;
+    text-align: left;
+}
+
+.mainCustomerOpinionChildsQuote {
+    width: 280px;
+    height: 27px;
+    font-family: "OpenSansSemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    text-align: left;
+    gap: 10px;
+}
+
+/* ------------------------------------------------- Другой участок ======================================================== */
+
+.mainTeaBlog {
+    margin-left: 670px;
+    margin-top: 150px;
+    width: 208px;
+    height: 48ox;
+    gap: 0px;
+
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Cormorant";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.44px;
+    text-align: center;
+}
+
+
+.mainTeaBlogContentParent {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-left: 200px;
+    width: 1142px;
+    height: 400px;
+}
+
+.mainTeaBlogChilds {
+    display: flex;
+    width: 542px;
+    height: 180px;
+
+}
+
+.mainTeaBlogChilds img:first-child {
+    margin-right: 20px;
+}
+
+.mainTeaBlogChildsText {
+    margin: 0;
+    width: 252px;
+    height: 86px;
+    gap: 0px;
+    font-family: "Cormorant";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.06px;
+    text-align: left;
+}
+
+.mainTeaBlogChildsTextAuthor {
+    width: 118px;
+    height: 18px;
+    gap: 0px;
+    font-family: "OpenSansLight";
+    color: #151618;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17.7px;
+    text-align: left;
+
+}
+
+.mainTeaBlogChildsButtonRead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 43px;
+    height: 18px;
+    gap: 0px;
+    font-family: "OpenSansLight";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17.7px;
+    text-align: left;
+    margin-top: 48px;
+
+}
+
+
+.mainTeaBlogChildsButtonRead img {
+    margin-left: 8px;
+    width: 5px;
+    height: 10px;
+    gap: 0px;
+}
+
+
+.mainTeaBlogViewAllButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "OpenSansLight";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27.24px;
+    text-align: center;
+    margin-top: 48px;
+    margin-left: 686px;
+    width: 149px;
+    height: 51px;
+    border: 1px solid #151618;
+}
+
+/* ------------------------------------------------- Другой участок ======================================================== */
+
+.mainMailing {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F2EA;
+    width: 1600px;
+    height: 418px;
+    margin-top: 150px;
+    gap: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.mainMailing img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 673.72px;
+    height: 418px;
+    gap: 0px;
+    object-fit: cover;
+}
+
+.mainMailingHeading {
+    width: 326px;
+    height: 48px;
+    margin-top: 100px;
+    margin-left: 200px;
+    gap: 0px;
+    font-family: "Cormorant";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.44px;
+    text-align: left;
+}
+
+.mainMailingRow {
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+    gap: 40px;
+}
+
+.mainMailingText {
+    width: 580px;
+    height: 120px;
+    gap: 0px;
+    font-family: "OpenSansLight";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+
+.mainMailingSubscribe {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 117px;
+}
+
+.top-row,
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.email-input {
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #B8B58B;
+    background-color: #F7F2EA;
+    width: 439px;
+    height: 30px;
+    font-size: 16px;
+    padding: 9px 10px 0;
+    outline: none;
+    margin-right: 20px;
+}
+
+::placeholder {
+    color: #B8B58B;
+}
+
+
+
+.join-button {
+    width: 116px;
+    height: 51px;
+    background-color: #FFFFFF;
+    border: 1px solid #151618;
+    color: #151618;
+    font-family: "OpenSansLight";
+    font-size: 20px;
+    text-align: center;
+    line-height: 51px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.privacy-text {
+    width: 560px;
+    height: 54px;
+    gap: 0px;
+    font-family: "OpenSansLight";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17.7px;
+    text-align: left;
+}
+
+.checkbox {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #111;
+}

@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #151618;
+    padding: 0;
+    margin: 0;
+    gap: 0px;
+    width: 1599px;
+    height: 4514px;
+
+}
+
+.first-img480px,
+.second-img480px {
+    display: none;
+    width: 100%;
+    height: auto;
+    max-width: 1600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-img480px {
+    z-index: 10;
+}
+
+/* --------------------------------------------Всплывающее окно ---------------------------------------------------------------*/
+
+#menuButton {
+    position: relative;
+}
+
+.dropMenu {
+    width: 360px;
+    height: 691px;
+    gap: 0px;
+    position: fixed;
+    top: 0;
+    left: 104px;
+    display: none;
+    background-color: #ffffff;
+    z-index: 25;
+}
+
+.dropMenuimg {
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+#closeBtn {
+    cursor: pointer;
+}
+
+.headerList {
+    display: flex;
+    flex-direction: column;
+    width: 71px;
+    height: 265px;
+    margin-top: 20px;
+    margin-left: 145px;
+    gap: 30px;
+    font-family: "CormorantLight";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.06px;
+    text-align: left;
+
+}
+
+.headerContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    width: 127px;
+    height: 124px;
+    margin-top: 122px;
+    margin-left: 117px;
+    font-family: "OpenSansLight";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17.7px;
+    text-align: center;
+}
+
+.headerProfileBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 360px;
+    height: 60px;
+    gap: 0px;
+    background-color: #F7F2EA;
+}
+
+.headerProfileBottomIcon {
+    width: 200px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Затемняющая область */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000080;
+    /* Полупрозрачная чернота */
+    z-index: 23;
+    /* Высокий индекс, чтобы перекрывать другие элементы */
+    display: none;
+}
+
+
+@media (max-width: 480px) {
+    #overlay {
+        width: 480px;
+        height: 5562px;
+    }
+}
